@@ -8,7 +8,7 @@ function checkData() {
     if (first_date < Date.now())
         alert("la data da te inserita é minore della data attuale.");
     if (second_date < first_date)
-        alert("inserisci una data di arrivo valida.")
+        alert("inserisci una data di arrivo valida.");
     if (name == '' || surname == '')
         alert('inserisci o il nome o il cognome');
 }   
