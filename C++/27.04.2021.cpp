@@ -7,6 +7,7 @@ struct paziente {
   int num;
   struct paziente *next;
 };
+
 class coda {
   paziente *testa, *fine;
   int num;
