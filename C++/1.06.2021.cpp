@@ -62,7 +62,7 @@ class addressBook {
         for (int i = 0; i < addressArray.size(); i++) {
             for (int j = 0; j < addressArray.size(); j++) {
                 if (addressArray[i]->tipo == "privato") {
-                    if (addressArray[i]->cognome > addressArray[j]->cognome) {
+                    if ( addressArray[i]->cognome > addressArray[j]->cognome ) {
                         tmp = addressArray[i];
                         addressArray[i] = addressArray[j];
                         addressArray[j] = tmp;
